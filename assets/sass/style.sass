@@ -1,0 +1,37 @@
+$vert-degeu:#33ffbb
+
+$bisque: bisque
+
+
+$colors-names: "orange", "cyan", "pink", "lime", "vert-degeu", "bisque"
+$colors-array: orange, cyan, pink, lime, $vert-degeu, bisque 
+
+@each $color in $colors-array
+    $i: index($colors-array, $color)
+    .#{nth($colors-names, $i)}
+        background-color: $color
+
+
+.bisque
+    border: 2px solid red
+.pad-5
+    padding-left: 5% !important
+
+.h-95
+    height: 95%
+
+
+.h-30
+    height: 30%
+
+.h-15
+    height: 15%
+
+.h-10
+    height: 12.5%
+
+.h-20
+    height: 40%
+
+.h-45
+    height: 45%
