@@ -22,6 +22,228 @@
   background-color: bisque;
 }
 
+.bleu-clair {
+  background-color: #4095BF;
+}
+
+.orange-jaune {
+  background-color: #BFAA40;
+}
+
+.vert-clair {
+  background-color: #40BF80;
+}
+
+.rouge-foncer {
+  background-color: #BF5540;
+}
+
+.violet-clair {
+  background-color: #BF40BF;
+}
+
+.orange-foncer {
+  background-color: #BF6A40;
+}
+
+.jaune-foncer {
+  background-color: #AABF40;
+}
+
+.vert-chiasse {
+  background-color: #6ABF40;
+}
+
+.grey {
+  background-color: grey;
+}
+
+@media screen and (min-width: 0) {
+  .height-5 {
+    height: 5% !important;
+  }
+  .height-10 {
+    height: 10% !important;
+  }
+  .height-15 {
+    height: 15% !important;
+  }
+  .height-20 {
+    height: 20% !important;
+  }
+  .height-25 {
+    height: 25% !important;
+  }
+  .height-30 {
+    height: 30% !important;
+  }
+  .height-35 {
+    height: 35% !important;
+  }
+  .height-40 {
+    height: 40% !important;
+  }
+  .height-45 {
+    height: 45% !important;
+  }
+  .height-50 {
+    height: 50% !important;
+  }
+  .height-55 {
+    height: 55% !important;
+  }
+  .height-60 {
+    height: 60% !important;
+  }
+  .height-65 {
+    height: 65% !important;
+  }
+  .height-70 {
+    height: 70% !important;
+  }
+  .height-75 {
+    height: 75% !important;
+  }
+  .height-80 {
+    height: 80% !important;
+  }
+  .height-85 {
+    height: 85% !important;
+  }
+  .height-90 {
+    height: 90% !important;
+  }
+  .height-95 {
+    height: 95% !important;
+  }
+  .height-100 {
+    height: 100% !important;
+  }
+}
+@media screen and (min-width: 576px) {
+  .height-sm-5 {
+    height: 5% !important;
+  }
+  .height-sm-10 {
+    height: 10% !important;
+  }
+  .height-sm-15 {
+    height: 15% !important;
+  }
+  .height-sm-20 {
+    height: 20% !important;
+  }
+  .height-sm-25 {
+    height: 25% !important;
+  }
+  .height-sm-30 {
+    height: 30% !important;
+  }
+  .height-sm-35 {
+    height: 35% !important;
+  }
+  .height-sm-40 {
+    height: 40% !important;
+  }
+  .height-sm-45 {
+    height: 45% !important;
+  }
+  .height-sm-50 {
+    height: 50% !important;
+  }
+  .height-sm-55 {
+    height: 55% !important;
+  }
+  .height-sm-60 {
+    height: 60% !important;
+  }
+  .height-sm-65 {
+    height: 65% !important;
+  }
+  .height-sm-70 {
+    height: 70% !important;
+  }
+  .height-sm-75 {
+    height: 75% !important;
+  }
+  .height-sm-80 {
+    height: 80% !important;
+  }
+  .height-sm-85 {
+    height: 85% !important;
+  }
+  .height-sm-90 {
+    height: 90% !important;
+  }
+  .height-sm-95 {
+    height: 95% !important;
+  }
+  .height-sm-100 {
+    height: 100% !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .height-lg-5 {
+    height: 5% !important;
+  }
+  .height-lg-10 {
+    height: 10% !important;
+  }
+  .height-lg-15 {
+    height: 15% !important;
+  }
+  .height-lg-20 {
+    height: 20% !important;
+  }
+  .height-lg-25 {
+    height: 25% !important;
+  }
+  .height-lg-30 {
+    height: 30% !important;
+  }
+  .height-lg-35 {
+    height: 35% !important;
+  }
+  .height-lg-40 {
+    height: 40% !important;
+  }
+  .height-lg-45 {
+    height: 45% !important;
+  }
+  .height-lg-50 {
+    height: 50% !important;
+  }
+  .height-lg-55 {
+    height: 55% !important;
+  }
+  .height-lg-60 {
+    height: 60% !important;
+  }
+  .height-lg-65 {
+    height: 65% !important;
+  }
+  .height-lg-70 {
+    height: 70% !important;
+  }
+  .height-lg-75 {
+    height: 75% !important;
+  }
+  .height-lg-80 {
+    height: 80% !important;
+  }
+  .height-lg-85 {
+    height: 85% !important;
+  }
+  .height-lg-90 {
+    height: 90% !important;
+  }
+  .height-lg-95 {
+    height: 95% !important;
+  }
+  .height-lg-100 {
+    height: 100% !important;
+  }
+}
 .bisque {
   border: 2px solid red;
 }
@@ -34,16 +256,28 @@
   height: 95%;
 }
 
-.h-30 {
-  height: 30%;
+.h-90 {
+  height: 90%;
+}
+
+.h-85 {
+  height: 85%;
+}
+
+.h-35 {
+  height: 35%;
+}
+
+.h-10 {
+  height: 10%;
 }
 
 .h-15 {
   height: 15%;
 }
 
-.h-10 {
-  height: 12.5%;
+.h-5 {
+  height: 5%;
 }
 
 .h-20 {
@@ -52,6 +286,10 @@
 
 .h-45 {
   height: 45%;
+}
+
+.h-30 {
+  height: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
